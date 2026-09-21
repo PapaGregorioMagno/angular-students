@@ -21,4 +21,17 @@ export class Student {
     {name: "Pippa ",city:"manchester",gender:"f",present:true},
     {name: "Paperino ",city:"topolinia",gender:"m",present:true}
   ];
+
+  generaNumero(a: number, b: number){ //estremo b escluso
+    return Math.floor(Math.random() * (b - a) + a);
+     
+  }
+
+  getstyle(s : any){
+    return {
+      'backgroundcolor': s.gender == 'm' ? this.M_COLOR : this.F_COLOR,
+      'textDecoration': s.present ? 'none' : 'underline',
+      'fontWeight': s.present ? 'normal' : 'bold'
+    }
+  }
 }
