@@ -15,10 +15,10 @@ export class Student {
 
 
   students: any[] =[
-    {name: "Pippo ",city:"topolinia",gender:"m",present:"true"},
-    {name: "Pluto ",city:"borra",gender:"m",present:"true"},
-    {name: "Paolo ",city:"la rue",gender:"m",present:"true"},
-    {name: "Pippa ",city:"manchester",gender:"f",present:"true"},
-    {name: "Paperino ",city:"topolinia",gender:"m",present:"true"}
+    {name: "Pippo ",city:"topolinia",gender:"m",present:true},
+    {name: "Pluto ",city:"borra",gender:"m",present:true},
+    {name: "Paolo ",city:"la rue",gender:"m",present:false},
+    {name: "Pippa ",city:"manchester",gender:"f",present:true},
+    {name: "Paperino ",city:"topolinia",gender:"m",present:true}
   ];
 }
